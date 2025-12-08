@@ -3,22 +3,22 @@ import { initRouter } from './router';
 
 function Header(mainDiv) {
   const appTitle = createElement('h1', {
-    textContent: 'My Cool Project',
+    textContent: 'Family Task Manager',
     className: 'heading',
   });
 
   // nav items
   const page1 = createElement('a', {
     href: '/#/page1',
-    textContent: 'Page 1',
+    textContent: 'Family Tasks',
   });
   const page2 = createElement('a', {
     href: '/#/page2',
-    textContent: 'Page 2',
+    textContent: 'Work Tasks',
   });
   const page3 = createElement('a', {
     href: '/#/page3',
-    textContent: 'Page 3',
+    textContent: 'Personal Tasks',
   });
 
   const nav = createElement('nav', {}, [page1, page2, page3]);
