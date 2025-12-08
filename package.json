@@ -2,24 +2,24 @@
   "name": "my-cool-project",
   "version": "1.0.0",
   "description": "WDD330 final project",
-  "homepage": "https://github.com/brother-nelson/my-cool-project#readme",
+  "homepage": "https://github.com/myJeeyoungM78/WDD330-FamilyTask#readme",
   "bugs": {
-    "url": "https://github.com/brother-nelson/my-cool-project/issues"
+    "url": "https://github.com/myJeeyoungM78/WDD330-FamilyTask/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brother-nelson/my-cool-project.git"
+    "url": "git+https://github.com/myJeeyoungM78/WDD330-FamilyTask.git"
   },
-  "license": "ISC",
+
   "author": "Jeeyoung Madsen <jmadsen@byupathway.edu>",
   "type": "commonjs",
-  "main": "index.js",
+
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "parcel": "^2.8.3",
+    "parcel": "^2.16.3",
     "prettier": "^2.8.4"
   }
 }
