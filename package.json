@@ -11,7 +11,7 @@
     "url": "git+https://github.com/brother-nelson/my-cool-project.git"
   },
   "license": "ISC",
-  "author": "Brother Nelson <nelsoned@byui.edu>",
+  "author": "Jeeyoung Madsen <jmadsen@byupathway.edu>",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
