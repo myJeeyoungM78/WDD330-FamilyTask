@@ -6,30 +6,47 @@
     <title>Family Task Manager</title>
     <link media="screen" rel="stylesheet" href="css/main.css" />
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="src/index.js"></script>
-    <!-- <h1>Family Task Manager</h1> -->
 
-    <div class="task-input">
-      <input id="taskText" type="text" placeholder="Enter a task" />
-      <button id="addTaskBtn">Add Task</button>
-    </div>
+    <main>
+      <section class="task-input">
+        <input id="taskText" type="text" placeholder="Enter a task" />
+          <select id="memberSelect">
+            <option>Mom</option>
+            <option>Dad</option>
+            <option>kid 1</option>
+            <option>kid 2</option>
+            <option>kid 3</option>
+          </select>
+        <button id="addTaskBtn">Add Task</button>
+      </section>
+      <ul id="taskList"></ul>
+    </main>
 
-        <section class="task-input">
-          <input id="taskText" type="text" placeholder="Enter a task" />
-            <select id="memberSelect">
-              <option>Mom</option>
-              <option>Dad</option>
-              <option>Son 1</option>
-              <option>Son 2</option>
-              <option>Son 3</option>
-            </select>
-          <button id="addTaskBtn">Add Task</button>
-        </section>
-        
-        <ul id="taskList"></ul>
-        </main>
+    <footer>
+      &copy;2025 ⛺ Family Task Manager ⛺ WDD 330 ⛺ BYU-Idaho for BYU-Pathway
+      Jeeyoung Madsen
+    </footer>
+
 
   </body>
 </html>
+
+
+    <!-- <main>
+          <section class="task-input">
+            <input id="taskText" type="text" placeholder="Enter a task" />
+              <select id="memberSelect">
+                <option>Mom</option>
+                <option>Dad</option>
+                <option>kid 1</option>
+                <option>kid 2</option>
+                <option>kid 3</option>
+              </select>
+            <button id="addTaskBtn">Add Task</button>
+          </section>
+          <ul id="taskList"></ul>
+        </main> -->

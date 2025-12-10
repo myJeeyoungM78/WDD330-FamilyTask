@@ -40,3 +40,4 @@ export function initRouter(mainView) {
     hashToRoute(hash);
   });
 }
+
